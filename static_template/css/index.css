@@ -1,0 +1,217 @@
+
+body{
+    margin:0;
+    padding:0;
+    font: 12px/1.3 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    color:#333;
+    overflow-x:hidden;
+    background-color: snow;
+    background-image:url(../img/90562751_p0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1920px;
+}
+::selection{
+    color:white;
+    background-color:#333;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:lightsalmon;
+}
+.user{
+    font-size:16px;
+    color:black;
+}
+p{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+
+    text-align:center;
+}
+div{
+    margin:0;
+    padding:0;
+}
+
+.x_link li{
+    margin:5px 0;
+    padding:0 18px;
+    font-size:15px;
+    display:inline-block;
+    border-right:solid rgba(211,211,211,0.5) 1px;
+    border-left:solid rgba(211,211,211,0.5) 1px;
+}
+.x_link li:last-of-type{
+    border-right:none;
+}
+.x_link li:first-of-type{
+    border-left:none;
+}
+
+.y_link li{
+    font-size:15px;
+    text-align:center;
+    margin:0 30px;
+    padding:0;
+    line-height:60px;
+    border-bottom:dotted lightgray 3px;
+}
+.y_link li:last-of-type{
+    border:none;
+}
+/* attention */
+
+nav{
+    min-width:1000px;
+    margin:0 auto;
+    padding:0;
+    position:sticky;
+    top:0;
+    left:0;
+    background-color:rgba(255,255,255,0.94);
+    box-shadow:0 0 1px 0 rgb(0 0 0 / 30%),0 0 6px 2px rgb(0 0 0 / 15%);
+
+    line-height:34px;/* 拉长li的主谋 */
+}
+footer{    
+    margin:100px 0 0 0;
+    padding:0;
+    bottom:0;
+    left:0;
+    background-color:rgba(255,255,255,0.94);
+    box-shadow:0 0 1px 0 rgb(0 0 0 / 30%),0 0 6px 2px rgb(0 0 0 / 15%);
+
+    line-height:20px;
+    text-align:center;
+}
+#Logo{
+    /* 使图层高于脱离流 */
+    margin-left:20px;
+    position:absolute;
+    top:0;left:0;
+    font-size:20px;
+
+    line-height:44px;
+}
+
+.searchbar{
+    margin:0 0 0 20px;
+    height:40px;
+    line-height:38px;
+    
+    display:none;
+}
+
+#BlogFrame{
+    margin:0 auto;
+    width:888px;
+
+}
+
+#BlogInfo{
+    height:300px;
+    line-height:150px;
+    background-color:#fff;
+    border-radius: 2px;
+    padding:2px;
+    box-shadow:0 0 1px 0 rgb(0,0,0);
+
+    background-image:url(../img/83599898_p0.png);
+    background-size:1000px;
+    background-position:0 -200px;
+    background-repeat: no-repeat;
+    margin-top:25px;
+}
+
+#BlogMain{
+    margin-top:25px;
+}
+
+#LeftBar{
+    float:left;
+    background:#fff;
+    border-radius: 2px;
+    padding:2px;
+    box-shadow:0 0 1px 0 rgb(0,0,0);
+
+    width:250px;    
+}
+
+#Container{
+    margin-left:270px;
+}
+
+.feed{
+    background:#fff;
+    border-radius: 2px;
+    padding:20px 20px 0 20px;
+    box-shadow:0 0 1px 0 rgb(0,0,0);
+
+    width:auto;
+    margin-bottom:15px;
+}
+
+#FeedToolBar{
+    background:#fff;
+    border-radius: 2px;
+    padding:2px;
+    box-shadow:0 0 1px 0 rgb(0,0,0);
+    
+    display:none;
+}
+
+article{
+    margin-left:70px;
+}
+.icon{
+    float:left;
+    height:50px;
+    width:50px;
+}
+.icon img{
+    width:50px;
+    height:50px;
+}
+
+.action{
+    float:right;
+}
+
+.status{
+    line-height:30px;
+    color:gray;
+}
+
+.context{
+    font-size:15px;
+    letter-spacing: normal;
+    overflow:hidden;
+    line-height: 20px;
+}
+.context img{
+    margin-top:5px;
+    width:498px;
+}
+
+.handle{
+    margin-top:20px;
+    border-top:solid lightgray 1px;
+    line-height:36px;
+}
+.handle li{
+    padding:0 78px;
+}
+
+#LeftBar{
+    position:sticky;
+    top:60px;
+}
